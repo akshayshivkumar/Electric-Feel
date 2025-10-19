@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MLX90393SLW-ABA-011-RE")(type "KiCad")(uri "${KIPRJMOD}/MLX90393SLW_ABA_011_RE/MLX90393SLW-ABA-011-RE.kicad_sym")(options "")(descr ""))
+  (lib (name "S4B-PH-K-S_LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/S4B-PH-K-S_LF__SN_/S4B-PH-K-S_LF__SN_.kicad_sym")(options "")(descr ""))
+)
