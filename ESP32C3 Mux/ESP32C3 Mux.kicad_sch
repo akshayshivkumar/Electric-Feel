@@ -2702,6 +2702,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 201.93 74.93)
@@ -2720,6 +2821,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70aa741a-e77b-4428-a480-698ebc47e769")
+	)
+	(junction
+		(at 200.66 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e1765ea-dd63-4abc-8284-62321ba31d79")
 	)
 	(junction
 		(at 148.59 125.73)
@@ -2995,6 +3102,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 55.88) (xy 200.66 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4740bb4b-492e-4755-95f3-070a8025d5fa")
+	)
+	(wire
+		(pts
 			(xy 86.36 113.03) (xy 87.63 113.03)
 		)
 		(stroke
@@ -3102,6 +3219,16 @@
 			(type default)
 		)
 		(uuid "7de9dc14-a522-4787-921b-5698757ad6d3")
+	)
+	(wire
+		(pts
+			(xy 200.66 54.61) (xy 200.66 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9480ca4e-2ad4-4cdb-8294-d2cac19ecdc0")
 	)
 	(wire
 		(pts
@@ -3579,7 +3706,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "062ddcd0-823d-43e8-affc-a0c3212028bd")
-		(property "Reference" "JP?"
+		(property "Reference" "JP1"
 			(at 204.978 67.31 0)
 			(effects
 				(font
@@ -3633,7 +3760,7 @@
 		(instances
 			(project ""
 				(path "/e2712e9e-3de3-412e-81b5-ba5ff5ca700b"
-					(reference "JP?")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -3781,7 +3908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "273c15f9-09bb-4d26-a94c-a7b055dbaf1f")
-		(property "Reference" "R?"
+		(property "Reference" "R3"
 			(at 218.44 60.9599 0)
 			(effects
 				(font
@@ -3835,7 +3962,7 @@
 		(instances
 			(project "ESP32C3 Mux"
 				(path "/e2712e9e-3de3-412e-81b5-ba5ff5ca700b"
-					(reference "R?")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3933,7 +4060,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TCA9548APWR:SOP65P640X120-24N"
+		(property "Footprint" "ESP32C3 Mux:TCA9548APWR"
 			(at 177.8 92.71 0)
 			(effects
 				(font
@@ -4221,7 +4348,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 200.66 57.15 0)
+		(at 200.66 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4230,7 +4357,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e0bafc4-3711-481a-bd8e-0354c0c6c984")
 		(property "Reference" "#PWR01"
-			(at 200.66 60.96 0)
+			(at 200.66 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4239,7 +4366,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 200.66 52.07 0)
+			(at 200.66 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4247,7 +4374,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 57.15 0)
+			(at 200.66 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4256,7 +4383,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 57.15 0)
+			(at 200.66 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4265,7 +4392,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 200.66 57.15 0)
+			(at 200.66 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4360,7 +4487,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f81205b-b16d-4e0c-9184-34a4385efe74")
-		(property "Reference" "JP?"
+		(property "Reference" "JP2"
 			(at 213.614 68.834 0)
 			(effects
 				(font
@@ -4412,7 +4539,7 @@
 		(instances
 			(project ""
 				(path "/e2712e9e-3de3-412e-81b5-ba5ff5ca700b"
-					(reference "JP?")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -4445,7 +4572,7 @@
 				)
 			)
 		)
-		(property "Footprint" "113991054:MODULE_113991054"
+		(property "Footprint" "ESP32C3 Mux:ESP32C3"
 			(at 254 107.95 0)
 			(effects
 				(font
@@ -5299,6 +5426,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 200.66 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0312d94-022c-4444-94cf-d929eef1e180")
+		(property "Reference" "#FLG01"
+			(at 198.755 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 196.85 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 200.66 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5d54146-c2fe-41de-a14d-9ba43f76026d")
+		)
+		(instances
+			(project ""
+				(path "/e2712e9e-3de3-412e-81b5-ba5ff5ca700b"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 148.59 57.15 0)
 		(unit 1)
@@ -5443,7 +5637,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f56ab6fb-a16c-48da-a4c4-fca6c741e929")
-		(property "Reference" "R?"
+		(property "Reference" "R2"
 			(at 211.582 60.96 0)
 			(effects
 				(font
@@ -5497,7 +5691,7 @@
 		(instances
 			(project "ESP32C3 Mux"
 				(path "/e2712e9e-3de3-412e-81b5-ba5ff5ca700b"
-					(reference "R?")
+					(reference "R2")
 					(unit 1)
 				)
 			)
