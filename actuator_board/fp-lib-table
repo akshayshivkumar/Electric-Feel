@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "113991054")(type "KiCad")(uri "${KIPRJMOD}/113991054")(options "")(descr ""))
+  (lib (name "mcp4018")(type "KiCad")(uri "${KIPRJMOD}/mcp4018")(options "")(descr ""))
+  (lib (name "TCA9548APWR")(type "KiCad")(uri "${KIPRJMOD}/TCA9548APWR")(options "")(descr ""))
+)
