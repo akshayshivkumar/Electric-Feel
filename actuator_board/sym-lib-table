@@ -3,4 +3,5 @@
   (lib (name "113991054")(type "KiCad")(uri "${KIPRJMOD}/113991054/113991054.kicad_sym")(options "")(descr ""))
   (lib (name "2025-10-21_01-01-03")(type "KiCad")(uri "${KIPRJMOD}/mcp4018/2025-10-21_01-01-03.kicad_sym")(options "")(descr ""))
   (lib (name "TCA9548APWR")(type "KiCad")(uri "${KIPRJMOD}/TCA9548APWR/TCA9548APWR.kicad_sym")(options "")(descr ""))
+  (lib (name "STLQ015M33R")(type "KiCad")(uri "${KIPRJMOD}/STLQ015M33R/STLQ015M33R.kicad_sym")(options "")(descr ""))
 )
