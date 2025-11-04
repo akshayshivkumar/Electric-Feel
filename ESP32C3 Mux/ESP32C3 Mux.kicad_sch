@@ -4343,6 +4343,16 @@
 		)
 		(uuid "0d3a6629-447d-4097-81eb-a49f3da5a812")
 	)
+	(label "SDA3"
+		(at 82.55 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "12c5b097-8e04-4ce3-beb7-5f648310b839")
+	)
 	(label "SDA"
 		(at 201.93 77.47 270)
 		(effects
@@ -4393,16 +4403,6 @@
 		)
 		(uuid "33b8e478-b227-406f-a877-cc39240f0df0")
 	)
-	(label "SDA3"
-		(at 102.87 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3c447da8-b3e8-47dd-90a9-c171c2a249c8")
-	)
 	(label "SCL"
 		(at 198.12 77.47 270)
 		(effects
@@ -4412,16 +4412,6 @@
 			(justify right bottom)
 		)
 		(uuid "4c107659-bf57-47a9-823d-882bf48fbd1d")
-	)
-	(label "SCL2"
-		(at 82.55 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4e18e3ae-9bd1-4f56-918b-46fe85668f1a")
 	)
 	(label "SCL4"
 		(at 160.02 97.79 180)
@@ -4483,6 +4473,26 @@
 		)
 		(uuid "7e602ee4-faf6-4c50-b942-5756da042666")
 	)
+	(label "SCL0"
+		(at 102.87 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "823a41ad-94b7-4eee-a909-8c035c9cf7d3")
+	)
+	(label "SDA0"
+		(at 82.55 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "829f54d2-c048-4f0e-92c7-e2d2eeeef9a2")
+	)
 	(label "SCL2"
 		(at 160.02 82.55 180)
 		(effects
@@ -4523,16 +4533,6 @@
 		)
 		(uuid "ac2241a7-d31e-441b-9726-0564a2abd34e")
 	)
-	(label "SDA0"
-		(at 82.55 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b1a099ac-7735-4579-b43e-ecda5ecb6120")
-	)
 	(label "SDA"
 		(at 271.78 105.41 0)
 		(effects
@@ -4543,15 +4543,15 @@
 		)
 		(uuid "b49efb04-92e2-4ba5-815d-9238f1feff77")
 	)
-	(label "SCL0"
-		(at 102.87 95.25 180)
+	(label "SCL2"
+		(at 102.87 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "cb059ebc-4fb4-4d70-b279-05dfb16008a1")
+		(uuid "d54d8b2c-936d-4d3a-85bf-739f181dea4c")
 	)
 	(label "SDA4"
 		(at 160.02 95.25 180)
