@@ -1,7 +1,7 @@
 (fp_lib_table
   (version 7)
   (lib (name "113991054")(type "KiCad")(uri "${KIPRJMOD}/113991054")(options "")(descr ""))
-  (lib (name "PMEG2010EH_115")(type "KiCad")(uri "${KIPRJMOD}/PMEG2010EH_115")(options "")(descr ""))
+  (lib (name "mcp4018")(type "KiCad")(uri "${KIPRJMOD}/mcp4018")(options "")(descr ""))
+  (lib (name "TCA9548APWR")(type "KiCad")(uri "${KIPRJMOD}/TCA9548APWR")(options "")(descr ""))
   (lib (name "STLQ015M33R")(type "KiCad")(uri "${KIPRJMOD}/STLQ015M33R")(options "")(descr ""))
-  (lib (name "IRLML6344TRPBF")(type "KiCad")(uri "${KIPRJMOD}/IRLML6344TRPBF")(options "")(descr ""))
 )
