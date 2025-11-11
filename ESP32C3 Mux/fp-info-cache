@@ -1,4 +1,4 @@
-26641658877188121
+26645184236561393
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -61362,6 +61362,13 @@ ESP32C3
 14
 14
 ESP32C3 Mux
+SAMTEC_SSW-104-22-F-D-RA
+
+
+0
+8
+8
+ESP32C3 Mux
 SOT95P280X145-5N
 
 
@@ -61375,6 +61382,13 @@ TCA9548APWR
 0
 24
 24
+ESP32C3 Mux
+TE_1-535512-8
+
+
+0
+16
+16
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
