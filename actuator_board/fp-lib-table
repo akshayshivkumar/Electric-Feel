@@ -4,4 +4,5 @@
   (lib (name "PMEG2010EH_115")(type "KiCad")(uri "${KIPRJMOD}/PMEG2010EH_115")(options "")(descr ""))
   (lib (name "STLQ015M33R")(type "KiCad")(uri "${KIPRJMOD}/STLQ015M33R")(options "")(descr ""))
   (lib (name "IRLML6344TRPBF")(type "KiCad")(uri "${KIPRJMOD}/IRLML6344TRPBF")(options "")(descr ""))
+  (lib (name "Electric-Feel")(type "KiCad")(uri "/Users/akshay/Documents/Git/Electric-Feel")(options "")(descr ""))
 )

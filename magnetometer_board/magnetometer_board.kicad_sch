@@ -1336,12 +1336,6 @@
 		(uuid "5292f7da-4f4d-4b28-80ba-cb1e6025f476")
 	)
 	(junction
-		(at 53.34 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6678c997-527a-43fb-8a0c-f9833140a46c")
-	)
-	(junction
 		(at 116.84 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1388,12 +1382,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae9b6fc6-7235-460c-9c14-dff1f4122c74")
-	)
-	(junction
-		(at 43.18 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf85d7a0-3ec0-46fb-8894-a62392a9d3b9")
 	)
 	(junction
 		(at 115.57 101.6)
@@ -1653,16 +1641,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 54.61) (xy 53.34 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1aed9a2b-4234-48b4-88e6-d28ad3138b6a")
-	)
-	(wire
-		(pts
 			(xy 49.53 67.31) (xy 58.42 67.31)
 		)
 		(stroke
@@ -1853,7 +1831,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 64.77) (xy 53.34 64.77)
+			(xy 39.37 64.77) (xy 58.42 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1920,16 +1898,6 @@
 			(type default)
 		)
 		(uuid "6a261272-b838-4996-b6dd-0601ac8b27a7")
-	)
-	(wire
-		(pts
-			(xy 53.34 63.5) (xy 53.34 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a36736f-af52-42e0-ab2c-2e54bc6feb4f")
 	)
 	(wire
 		(pts
@@ -2040,16 +2008,6 @@
 			(type default)
 		)
 		(uuid "982d3569-31c3-4465-819a-d3dd2487ad29")
-	)
-	(wire
-		(pts
-			(xy 53.34 54.61) (xy 53.34 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bcc6f5e-9575-4ab6-bbcb-e062e0402b51")
 	)
 	(wire
 		(pts
@@ -2333,16 +2291,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 64.77) (xy 58.42 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecb7cf81-1440-4634-b77c-10f54e8b8627")
-	)
-	(wire
-		(pts
 			(xy 43.18 72.39) (xy 43.18 69.85)
 		)
 		(stroke
@@ -2551,73 +2499,6 @@
 			(project ""
 				(path "/030111b9-3866-4619-8384-eef4a0d75538"
 					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 53.34 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1c12d95a-6ba4-4e2a-8ab9-cff52b3ec508")
-		(property "Reference" "R2"
-			(at 56.134 58.674 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 56.134 60.452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 54.356 59.944 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 53.34 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d862c4b-b8b2-4ffd-ade5-4887db39cbdc")
-		)
-		(pin "2"
-			(uuid "0461041d-aad0-440e-b813-e99daf0b5641")
-		)
-		(instances
-			(project "magnetometer_board"
-				(path "/030111b9-3866-4619-8384-eef4a0d75538"
-					(reference "R2")
 					(unit 1)
 				)
 			)
