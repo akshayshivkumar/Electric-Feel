@@ -3341,15 +3341,15 @@
 		)
 		(uuid "fcc72361-05bf-4bc4-aad8-ff0dddf9cd6a")
 	)
-	(label "SCL"
-		(at 193.04 119.38 0)
+	(label "SDA1"
+		(at 193.04 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "1886a080-85ca-466b-bb60-2e62d1a3d427")
+		(uuid "09339e0b-281e-48e9-8af8-d64d287b65e6")
 	)
 	(label "SCL"
 		(at 110.49 123.19 180)
@@ -3360,6 +3360,16 @@
 			(justify right bottom)
 		)
 		(uuid "20bf42b5-f5ef-4726-a289-8ad08efceb98")
+	)
+	(label "SDA0"
+		(at 193.04 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "21308d96-79d1-4dc9-ac2e-a5b6959ce35c")
 	)
 	(label "SDA4"
 		(at 130.81 125.73 180)
@@ -3421,15 +3431,15 @@
 		)
 		(uuid "3c8200b7-5c93-4dda-b3ea-b1e476e2d03d")
 	)
-	(label "SDA2"
-		(at 193.04 127 0)
+	(label "SCL"
+		(at 193.04 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "8544ed61-dea5-4665-92db-69d69509c672")
+		(uuid "7e60b1d7-229a-48bd-807a-da4e3e903305")
 	)
 	(label "SDA0"
 		(at 130.81 115.57 180)
@@ -3441,25 +3451,15 @@
 		)
 		(uuid "8d599507-d209-48ed-8762-ef93f7209a6a")
 	)
-	(label "SDA3"
-		(at 193.04 129.54 0)
+	(label "SDA4"
+		(at 193.04 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "93f00885-ffea-4808-bcca-f0d2cbd9cb8b")
-	)
-	(label "SDA0"
-		(at 193.04 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b49efb04-92e2-4ba5-815d-9238f1feff77")
+		(uuid "98e8a556-15b2-4cde-85fc-5301824d90b0")
 	)
 	(label "SDA1"
 		(at 130.81 118.11 180)
@@ -3471,7 +3471,7 @@
 		)
 		(uuid "cbc04942-2794-46c6-8664-0daf34ee405a")
 	)
-	(label "SDA1"
+	(label "SDA2"
 		(at 193.04 124.46 0)
 		(effects
 			(font
@@ -3479,17 +3479,17 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "cc6842a5-ed9c-4aa1-9e74-74bfc128152c")
+		(uuid "cc5b627a-df8a-4086-b7c7-66b2812ae8d4")
 	)
-	(label "SDA4"
-		(at 193.04 132.08 0)
+	(label "SDA3"
+		(at 193.04 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "d66d9bb5-6f50-415d-867c-3d10bed4d24c")
+		(uuid "d0a8606c-0dab-45e3-be24-7552bbb62232")
 	)
 	(label "SDA2"
 		(at 130.81 120.65 180)
