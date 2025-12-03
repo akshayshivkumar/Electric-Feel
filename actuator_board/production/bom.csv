@@ -1,0 +1,8 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"D1, D2, D3, D4, D5",DIO_PMEG3020EH_115,5,D_Schottky,
+J1,PinSocket_1x10_P2.54mm_Vertical,1,Conn_01x10_Socket,
+J2,PinSocket_1x01_P2.54mm_Vertical,1,Conn_01x01_Socket,
+"Q1, Q2, Q3, Q4, Q5",TRANS_IRLML6344TRPBF,5,Q_NMOS_GSD,
+"R1, R2, R3, R4, R5",0805,5,100R,
+"R10, R6, R7, R8, R9",0805,5,100k,
+U1,MODULE_113991054,1,113991054,

@@ -1,0 +1,5 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C2, C3, C4, C5, C6",0603,6,0.1u,
+J2,JST_S4B-PH-K-S_LF__SN_,1,S4B-PH-K-S_LF__SN_,
+R1,0603,1,10k,
+"U1, U2, U3",QFN50P300X300X100-17N,3,MLX90393SLW-ABA-011-RE,
