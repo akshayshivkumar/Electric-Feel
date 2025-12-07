@@ -13,7 +13,7 @@
 #include <Wire.h>
 
 // --- PIN DEFINITIONS (XIAO ESP32-C3) ---
-#define I2C_SDA D4
+#define I2C_SDA D3
 #define I2C_SCL D5
 
 // --- MLX90393 CONFIGURATION ---
